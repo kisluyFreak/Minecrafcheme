@@ -1,43 +1,53 @@
 ```
-# Compiled and build artifacts
-*.class
-*.o
-*.obj
-*.out
-build/
-target/
-
-# Dependencies
+# Gradle
 .gradle/
-libs/
-!libs/**  # Allow libs folder but ignore its contents except specific jars
+build/
+dist/
 
-# Logs and temp files
-*.log
-*.tmp
+# IDE
+.vscode/
+.idea/
 *.swp
+*.swo
+*.tmp
 
 # Environment
 .env
 .env.local
 *.env.*
 
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
+# Logs
+*.log
 
-# OS
+# Compiled files
+*.class
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+target/
+
+# System
 .DS_Store
 Thumbs.db
 
-# Test coverage
+# Coverage
 coverage/
 htmlcov/
 .coverage
 
-# Compression
+# Compressed files
 *.zip
 *.gz
 *.tar
@@ -56,8 +66,4 @@ htmlcov/
 *.Z
 *.lz
 *.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
 ```
