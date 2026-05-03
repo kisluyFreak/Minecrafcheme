@@ -3,32 +3,49 @@
 .gradle/
 build/
 dist/
-out/
-
-# Dependencies
-libs/
 
 # IDE
 .vscode/
 .idea/
-*.iml
-*.ipr
-*.iws
-
-# System
-.DS_Store
-Thumbs.db
-*.log
+*.swp
+*.swo
+*.tmp
 
 # Environment
 .env
 .env.local
 *.env.*
 
-# Temporary files
-*.tmp
-*.temp
-*.bak
+# Logs
+*.log
+
+# Compiled files
+*.class
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+target/
+
+# System
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+htmlcov/
+.coverage
 
 # Compressed files
 *.zip
@@ -40,4 +57,13 @@ Thumbs.db
 *.7z
 *.rar
 *.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
 ```
