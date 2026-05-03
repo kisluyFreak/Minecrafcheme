@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="mybuilder"
+version="1.0.0"
+displayName="MyBuilder - AI Build Helper"
+authors="You"
+description='''
+Мод для строительства построек из JSON файлов, сгенерированных ИИ.
+- Загрузка JSON из папки mybuilder_builds
+- Просмотр статистики блоков
+- Строительство по слоям или по типам блоков
+- Поддержка больших построек до 500x500x500
+'''
+logoFile="examplemod.png"
+
+[[dependencies.mybuilder]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="CLIENT"
+
+[[dependencies.mybuilder]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.21.1,1.22)"
+    ordering="NONE"
+    side="CLIENT"
