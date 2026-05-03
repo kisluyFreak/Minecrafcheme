@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="mybuilder"
+version="1.0.0"
+displayName="MyBuilder"
+authors="You"
+description='''
+Мод для строительства по JSON схемам с удобным интерфейсом.
+'''
+
+[[dependencies.mybuilder]]
+    modId="forge"
+    mandatory=true
+    versionRange="[52,)"
+    ordering="NONE"
+    side="CLIENT"
+
+[[dependencies.mybuilder]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.21.1,1.22)"
+    ordering="NONE"
+    side="CLIENT"
