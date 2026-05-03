@@ -1,0 +1,51 @@
+=== ПРОМПТ ДЛЯ СОЗДАНИЯ ПОСТРОЕК В MINECRAFT ===
+
+Скопируй этот текст и отправь ИИ чтобы получить JSON для мода MyBuilder:
+
+---
+
+Создай JSON-файл для мода MyBuilder (Minecraft 1.21.1 Forge).
+
+Постройка: [ЗДЕСЬ ОПИШИ ЧТО НУЖНО ПОСТРОИТЬ]
+
+ТРЕБОВАНИЯ К ФОРМАТУ:
+1. Используй ТОЧНО такую структуру JSON:
+{
+  "name": "Название постройки на русском или английском",
+  "dimensions": {
+    "width": [ширина по X],
+    "height": [высота по Y], 
+    "depth": [глубина по Z]
+  },
+  "blocks": [
+    {"id": "minecraft:block_id", "x": 0, "y": 0, "z": 0},
+    {"id": "minecraft:block_id", "x": 1, "y": 0, "z": 0}
+  ]
+}
+
+2. Правила:
+   - Координаты начинаются с 0,0,0
+   - Максимальный размер: 100x100x100 блоков
+   - Используй только валидные ID блоков Minecraft 1.21.1
+   - Все блоки должны быть размещены логично и красиво
+
+3. Популярные ID блоков:
+   - minecraft:stone, minecraft:cobblestone, minecraft:smooth_stone
+   - minecraft:oak_planks, minecraft:spruce_planks, minecraft:birch_planks
+   - minecraft:glass, minecraft:white_stained_glass
+   - minecraft:oak_log, minecraft:spruce_log, minecraft:birch_log
+   - minecraft:bricks, minecraft:stone_bricks
+   - minecraft:oak_stairs, minecraft:stone_brick_stairs
+   - minecraft:oak_door, minecraft:spruce_door
+   - minecraft:torch, minecraft:lantern
+   - minecraft:grass_block, minecraft:dirt, minecraft:sand
+
+4. Постройка должна быть детализированной и красивой!
+
+Пример того что я хочу: [опиши подробно свою постройку]
+---
+
+После получения JSON:
+1. Сохрани файл как название.json
+2. Положи в папку mybuilder_builds/ рядом с игрой
+3. В игре нажми B и выбери свою постройку!

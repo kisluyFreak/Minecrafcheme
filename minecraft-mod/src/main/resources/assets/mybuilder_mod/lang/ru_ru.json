@@ -1,0 +1,19 @@
+{
+  "language": "ru_ru",
+  "mybuilder_mod.title": "My Builder Mod",
+  "mybuilder_mod.select_build": "Выбрать постройку",
+  "mybuilder_mod.view_layers": "Просмотр слоёв",
+  "mybuilder_mod.build_mode": "Режим строительства",
+  "mybuilder_mod.block_count": "Подсчёт блоков",
+  "mybuilder_mod.no_structure": "Постройка не выбрана",
+  "mybuilder_mod.refresh": "Обновить",
+  "mybuilder_mod.back": "Назад",
+  "mybuilder_mod.create_example": "Создать пример",
+  "mybuilder_mod.export_chat": "Экспорт в чат",
+  "mybuilder_mod.build": "Построить",
+  "mybuilder_mod.undo": "Отменить последнее",
+  "mybuilder_mod.preview": "Показать превью",
+  "mybuilder_mod.mode_by_layer": "По слоям",
+  "mybuilder_mod.mode_by_block": "По типу блока",
+  "mybuilder_mod.mode_all": "Всё сразу"
+}
